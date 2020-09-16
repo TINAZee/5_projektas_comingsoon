@@ -30,14 +30,14 @@
                 display: inline-block;
                 width: 50%;
                 float: left;
-                background-color: blue;
+                
 
             }
             .right-row {
                 display: inline-block;
                 width: 40%;
                 float: right;
-                background-color: crimson;
+               
 
             }
             .socials {
