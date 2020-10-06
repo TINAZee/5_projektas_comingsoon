@@ -22,12 +22,3 @@
     resize: vertical;
 }
 
-@media(min-width: 1101px ) {
-    .form > input {
-        width: 47%;
-    }
-}
-    .form > input:first-child {
-        margin-right: 6%;
-    }
-    

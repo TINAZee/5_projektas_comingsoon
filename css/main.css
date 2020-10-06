@@ -60,6 +60,13 @@ html {
             margin-right: 5%;
             margin-bottom: 20px;
         }
+        .hero-row > .form > input {
+            background-color: transparent;
+            color: #fff;
+        }
+        .hero-row > .form > input::placeholder {
+            color: #fff;
+        }
 
         .row {
             display: inline-block;
@@ -81,6 +88,11 @@ html {
                 float: right;
             
             }
+            .right-column > .btn {
+                float: right;
+            }
+
+            
             .column-title {
                 display: inline-block;
                 width: 100%;
@@ -255,4 +267,12 @@ html {
                     width: 100%;
                     margin-left: 0;
                 }
+            }
+@media(min-width: 1101px ) {
+    .right-column > .form > input {
+        width: 47%;
+             }
+    }
+    .right-column >.form > input:first-child {
+             margin-right: 6%;
             }
